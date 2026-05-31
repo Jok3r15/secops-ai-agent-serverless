@@ -1,0 +1,17 @@
+# === Secretos e Información Sensible ===
+*_accessKeys.csv
+*.csv
+*.tfvars
+*.tfvars.json
+
+# === Archivos de Estado y Temporales de Terraform ===
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# === Binarios y Compilados ===
+*.zip
+lambda_function_payload.zip
+__pycache__/
+*.pyc
